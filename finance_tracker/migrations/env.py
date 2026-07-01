@@ -8,6 +8,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from app.db.database import Base
 from app.models.transaction import Transaction
+from app.models.user import User
 
 config = context.config
 fileConfig(config.config_file_name)
